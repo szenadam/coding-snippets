@@ -1,4 +1,4 @@
-array = [1,4,8,21,6,1,12,5]
+collection = [1,4,8,21,6,1,12,5]
 
 def insertion_sort(collection):
     for i in range(1, len(collection)):
@@ -7,4 +7,4 @@ def insertion_sort(collection):
             i -= 1
     return collection
 
-print(insertion_sort(array))
+print(insertion_sort(collection))
